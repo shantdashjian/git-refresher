@@ -53,7 +53,7 @@ A refresher of the core Git commands
 
 **Staged** means prepared to be committed.
 
-To **commit** your staged code, is to take a snapshot of your code at ths point in time, saving the state of your code, in the `.git` directory.
+To **commit** your staged code, is to take a snapshot of your code at this point in time, saving the state of your code, in the `.git` directory.
 
 ## How Do You
 **init**ialize a Git repo
@@ -78,9 +78,9 @@ Stage untracked code changes, **add**ing them to the staged area, ready to be co
 > git commit -m "Fix bug"
 ```
 
-**ammend** the commit you just made, in case you missed something or screwed up the code or message
+**amend** the commit you just made, in case you missed something or screwed up the code or message
 ```
-> git commit --amend -m "Fix bug"
+> git commit --amend
 ```
 
 See the **log** of all changes committed so far
@@ -210,4 +210,9 @@ You can use `*` as a wild card
 You can NOT ignore a file
 ```
 !important.txt
+```
+
+show the **diff** between the current changes and the last commit
+```
+> git diff
 ```
